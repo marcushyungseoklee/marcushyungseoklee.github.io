@@ -12,7 +12,7 @@ url:                   https://github.com/marcushyungseoklee.github.io
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl:               ''
+baseurl: marcushyungseoklee.github.io             ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -25,12 +25,11 @@ title:                 MacHyung's Blog
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "IT Professional Engineer Mac's blog".
-  **Marcyshyungseoklee** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               >
   "IT blogs".
-  Open `_config.yml` to edit this text.
+   Knowledge of IT Trend, Technology, Cloud and Continaer
 
 # A list of keywords for your blog
 keywords:              []
@@ -44,8 +43,7 @@ logo:                  /assets/icons/icon.png
 author:
   name:                <marcus> <lee>
   email:               <ddrseok@gmail.com>
-  # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+
 
 # Add links to the sidebar.
 menu:
@@ -67,7 +65,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018. All rights reserved.
+copyright:             © 2019. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
