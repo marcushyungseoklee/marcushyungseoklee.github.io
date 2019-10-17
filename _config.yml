@@ -47,12 +47,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Mac's
+  - title:             Mac's technology
     url:               /marcushyungseoklee/
   - title:             IT Posting
     url:               /marcushyungseoklee/
-  - title:             Writers
-    url:               /docs/
+  - title:             IT Trend
+    url:               /hslee/
   - title:             About
     url:               /about/
 
@@ -101,7 +101,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path:            hyde
+      path:            hslee
     values:
       accent_color:    rgb(38,139,210)
       accent_image:
