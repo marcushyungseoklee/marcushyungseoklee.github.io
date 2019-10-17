@@ -14,21 +14,8 @@ A portfolio that's guaranteed to be impressive — no matter what you put into i
 
 ## An valuable knowledge
 
-
-## Just Markup
-
-![w3m Screenshot](assets/img/blog/w3m.png){:data-width="1920" data-height="1260"}
-The Hydejack blog, as seen by the text browser `w3m`.
-{:.figure}
-
-
-## Syntax Highlighting
-
-```js
-document.getElementsByTagName("hy-push-state")[0].addEventListener("hy-push-state-load", function() {
-  // <your init code>
-});
-```
+* A mount of knowledge lead to new technology insight
+* Sharing useful tech knowledge
 
 
 ## A Personal Site That Belongs to You
