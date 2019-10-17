@@ -2,11 +2,11 @@
 layout: page
 title: Basics
 description: >
-  This chapter covers the basics of content creation with Hydejack.
+  This chapter covers the basics of content creation with marcushyungseoklee.
 hide_description: true
 ---
 
-This chapter covers the basics of content creation with Hydejack.
+This chapter covers the basics of content creation with marcus
 
 ## Table of Contents
 {:.no_toc}
@@ -38,13 +38,13 @@ To add links to the sidebar, populate the `menu` entry in `_config.yml` with a l
 # file: _config.yml
 menu:
   - title: Blog
-    url:   /blog/
-  - title: Projects
-    url:   /projects/
+    url:   /_posts/
+  - title: IT Posting
+    url:   /hslee/
   - title: Resume
     url:   /resume/
   - title: About
-    url:   /about/
+    url:   /About/
 ```
 
 ### Adding a link to an external page to the sidebar
@@ -78,7 +78,7 @@ Posts in Jekyll can belong to one or more categories, as well as one or more tag
 ~~~yml
 ---
 layout:     post
-title:      Welcome to Jekyll
+title:      Welcome to marcushyungseoklee
 categories: [jekyll, update]
 tags:       [jekyll, update]
 ---
