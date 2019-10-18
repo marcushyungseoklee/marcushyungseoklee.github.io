@@ -14,7 +14,7 @@ hidden: false
 애플리케이션, 서버, OS 등 다양한 지표를 수집하여 모니터링 할 수 있으며 다양한 그래픽 모드와 대시보드를 지원한다.
 
 
-![ex_screenshot](/assets/img/프로메테우스아키텍쳐.png)
+![ex_screenshot](/assets/images/프로메테우스아키텍쳐.png)
 
 [그림-1] 프로메테우스 아키텍처
 
@@ -50,7 +50,7 @@ hidden: false
 1. 미니큐브(minikube) 실행
  
 
-미니큐브를 실행한다. 미니큐브를 설치하는 방법은 따로 설명하지 않는다. 
+미니큐브를 실행한다. 미니큐브를 설치하는 방법은 따로 설명하지 않는다.
 
  
 
@@ -89,9 +89,9 @@ $ helm install -f values.yaml stable/prometheus --name prometheus --namespace pr
 
  
 
-![ex_screenshot](/assets/img/프로메테우스 설치.png)
+![ex_screenshot](/assets/images/프로메테우스 설치.png)
 
-[그림-3] prometheus 설치 화면
+[그림-2] prometheus 설치 화면
 
  
 
@@ -109,9 +109,9 @@ prometheus라는 이름의 네임스페이스를 만들었으므로 해당 네�
 $ kubectl get pod -n prometheus
  
 
- ![ex_screenshot](/assets/img/프로메테우스 팟 리스트.png)
+ ![ex_screenshot](/assets/images/프로메테우스 팟 리스트.png)
 
-[그림-4] prometheus pod 목록
+[그림-3] prometheus pod 목록
 
  
 
@@ -129,9 +129,9 @@ $ kubectl port-forward -n prometheus prometheus-server-5947775fbc-qbobk 9090
  
 
 
- ![ex_screenshot](/assets/img/프로메테우스 대시보드.png)
+ ![ex_screenshot](/assets/images/프로메테우스 대시보드.png)
 
-[그림-5] prometheus 대시보드
+[그림-4] prometheus 대시보드
 
  
 
@@ -149,9 +149,9 @@ $ kubectl port-forward -n prometheus prometheus-server-5947775fbc-qbobk 9090
 동작을 확인하기 위해 쿼리문 하나를 입력해서 결과를 얻을 수 있다.
 
 
-![ex_screenshot](/assets/img/프로메테우스 쿼리.png)
+![ex_screenshot](/assets/images/프로메테우스 쿼리.png)
 
-[그림-6] prometheus 대시보드에서 쿼리문 결과
+[그림-5] prometheus 대시보드에서 쿼리문 결과
 
  
 
@@ -161,26 +161,21 @@ kubernetes-apiserviers, kubernetes-node 등 쿠버네티스 관련 대상들에 
  
 
 
-![ex_screenshot](/assets/img/프로메테우스 서비스 디스커버리.png)
+![ex_screenshot](/assets/images/프로메테우스 서비스 디스커버리.png)
 
-[그림-7] service-discovery 대상 목록
+[그림-6] service-discovery 대상 목록
 
  
 
 그럼 이제 Target 메뉴를 선택하면 각각의 모니터링 대상들에 대한 지표를 어디서 가져오는지 알 수 있다. (정상일때는 up상태이다. 순간적으로 클러스터가 stop되서 스크린샷은 State가 DOWN으로 되어있다)
 
- 
-
-
-
-[그림-8] 모니터링 대상의 상태
 
  
 
 Graph에서 각각의 대상에 대한 모니터링 상태를 다음과 같이 확인할 수 있다. 
 
 
-![ex_screenshot](/assets/img/프로메테우스 그래프.png)
-[그림-9] kube_daemonset_status 그래프
+![ex_screenshot](/assets/images/프로메테우스 그래프.png)
+[그림-7] kube_daemonset_status 그래프
 
  
