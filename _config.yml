@@ -2,8 +2,8 @@
 name: "Marcushyungseoklee"
 title: "IT Blog"
 description: "IT Professional Engineer, IT Blog."
-logo: 'assets/images/logo.jpg'
-favicon: 'assets/images/logo.jpg'
+logo: 'assets/images/logo_.png'
+favicon: 'assets/images/logo_.png'
 baseurl: /marcushyungseoklee/
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
@@ -16,7 +16,6 @@ authors:
   marcus:
     name: marcuslee
     display_name: marcushyungseoklee
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: ddrseok@gmail.com
     web: https://marcushyungseoklee.github.io
     description: "IT Professional Engineer, IT Professional"
