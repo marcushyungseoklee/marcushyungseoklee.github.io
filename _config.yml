@@ -14,7 +14,7 @@ permalink: /:title/
 authors:
   marcus:
     name: marcuslee
-    avatar: avatar.jpg
+    avatar: /assets/images/kubernetesinaction.jpg
     display_name: marcushyungseoklee
     email: ddrseok@gmail.com
     web: https://marcushyungseoklee.github.io
@@ -27,7 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -35,11 +35,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
