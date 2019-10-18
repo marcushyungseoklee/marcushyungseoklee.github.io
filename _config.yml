@@ -2,7 +2,8 @@
 name: "Marcushyungseoklee"
 title: "IT Blog"
 description: "IT Professional Engineer, IT Blog."
-baseurl: /marcushyungseoklee/
+url: https://marcushyungseoklee.github.io
+baseurl: /blog
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -13,6 +14,7 @@ permalink: /:title/
 authors:
   marcus:
     name: marcuslee
+    avatar: avatar.jpg
     display_name: marcushyungseoklee
     email: ddrseok@gmail.com
     web: https://marcushyungseoklee.github.io

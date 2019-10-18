@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Marcus Hyungseok Lee
-permalink: /about
+permalink: index.html
 comments: true
 ---
 
