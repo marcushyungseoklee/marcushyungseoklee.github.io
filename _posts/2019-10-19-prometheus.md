@@ -14,7 +14,7 @@ hidden: false
 애플리케이션, 서버, OS 등 다양한 지표를 수집하여 모니터링 할 수 있으며 다양한 그래픽 모드와 대시보드를 지원한다.
 
 
-![ex_screenshot](/assets/images/프로메테우스아키텍쳐.png)
+![ex_screenshot](/assets/images/prometheus_arch.png)
 
 [그림-1] 프로메테우스 아키텍처
 
